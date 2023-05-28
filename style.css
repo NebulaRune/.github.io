@@ -1,0 +1,70 @@
+body {
+  background-image: url("https://media.discordapp.net/attachments/1103777455052947576/1111310855854887022/cool-background1.jpeg?width=768&height=512");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.login-box {
+  width: 400px; /* Erhöhe die Gesamtbreite auf 400px */
+  height: 250px;
+  background-color: rgba(245, 245, 245, 0.8); /* Transparenter Hintergrund */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px 40px; /* Erhöhe das rechte Padding auf 40px */
+  backdrop-filter: blur(10px); /* Füge den Blur-Effekt hinzu */
+}
+
+.login-options {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forgot-password,
+.sign-up {
+  color: #333;
+  text-decoration: none;
+}
+
+.forgot-password:hover,
+.sign-up:hover {
+  color: #311919;
+}
+
+.divider {
+  margin: 0 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px; /* Runder Radius */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Schatten */
+  transition: transform 0.3s, box-shadow 0.3s; /* Übergangseffekte für Transformation und Schatten */
+}
+
+.submit-btn:hover {
+  transform: scale(1.05); /* Vergrößern bei Hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Intensivere Schatten bei Hover */
+}
